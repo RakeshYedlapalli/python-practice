@@ -1,0 +1,19 @@
+def findNumberOfMaleAndFemaleFromList(listOfStudents):
+    numberOfMales = 0
+    numberOfFemals = 0
+    
+    for student in listOfStudents:
+        if (student == "male"):
+            numberOfMales = numberOfMales + 1
+        elif (student == "female"):
+            numberOfFemals = numberOfFemals + 1
+
+    
+    numberOfMaleTuples = ("male",numberOfMales)
+    numberOfFemaleTuples = ("female",numberOfFemals)
+    return [numberOfMaleTuples , numberOfFemaleTuples]
+
+
+students = ["male", "female", "male", "female", "female", "female", "female"]
+result = findNumberOfMaleAndFemaleFromList(students)
+print(result)

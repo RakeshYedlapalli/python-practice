@@ -1,0 +1,7 @@
+public class WordsCount {
+    public static void main(String[] args) {
+        
+        String s = "Dear Manager, On 22 August 2015, I bought a pair of Nautica trousers from your website. My order reference number is XYZ949, and the payment was made cash on delivery. I was excited to won tehm the moment they were delivered. My excitement was great, but it was short-lived for only two days when I came to kknow that the product was counterfeit. I would not have known that until my friend happened to see the pair of trousers. He bought trousers of the same brand from the company showroom and there was a massitve difference between his and my trousers. The qualifty of cloth is feeble, and the sewing has come off. When Ii showed mine to Nautica showroom personnel, they were appalled to see and dclared them as a counterfeit product. I am very much annoyed because it is an act of dishonesty and cheating . therefore I am returning this pair of trousers and deman the full amount of refund moreover, I  have deided to make a cmplaint to the consumers' protection court for further action. I hope to have a reply, and you cna reach me at (555)3595864.";
+        System.out.println( s.split(" ").length );
+    }
+}

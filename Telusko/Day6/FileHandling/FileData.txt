@@ -1,0 +1,5 @@
+Hello,
+This is Rakesh from Gap inc
+And I am your tutor for Python
+we are in concept of File handling now
+we will be moving to Django sooon later today or may start from today
