@@ -8,4 +8,4 @@ p1 = Person('rakesh',28)
 
 print(p1.name)
 print(p1.age)
-
+    
